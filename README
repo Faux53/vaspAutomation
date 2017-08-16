@@ -1,0 +1,11 @@
+In order to properly run this you need to follow some steps
+
+1). grab shutil, running the setupauto.py script should get you the current version of shutil
+
+2). make sure you have the correct version of Python,  Python 3 will NOT work, for this script we need python 2.7 which has glob
+
+3). add in your own folder path line 5 into the automation.py mine is /Users/andrewadams/Desktop/vasp/dir  yours may be different.
+
+4). count the characters in your file path, add 8 and replace 43 with it on line 10
+
+5). you should be good to run it.
